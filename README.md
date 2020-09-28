@@ -1,4 +1,24 @@
-# nbdev template
+# ProgrammingForDS
+> This is a test library
 
-Use this template to more easily create your nbdev project.
+
+This file will become your README and also the index of your documentation.
+
+## Install
+
+`pip install ProgrammingForDS`
+
+## How to use
+
+This l
+
+```python
+1+1
+```
+
+
+
+
+    2
+
 
