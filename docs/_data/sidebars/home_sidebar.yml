@@ -10,9 +10,9 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: module name here
+      title: ProgrammingForDS
       url: core.html
     output: web
-    title: myLibrary
+    title: ProgrammingForDS
   output: web
   title: Sidebar

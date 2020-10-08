@@ -2,7 +2,7 @@
 > This is a test library
 
 
-This file will become your README and also the index of your documentation.
+Hopefuly ends up being a useful tool
 
 ## Install
 
@@ -10,7 +10,7 @@ This file will become your README and also the index of your documentation.
 
 ## How to use
 
-This l
+Here are some examples:
 
 ```python
 1+1
