@@ -12,6 +12,9 @@ entries:
     - output: web,pdf
       title: ProgrammingForDS
       url: core.html
+    - output: web,pdf
+      title: Title
+      url: Finding Numbers in a Haystack.html
     output: web
     title: ProgrammingForDS
   output: web
