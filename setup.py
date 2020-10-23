@@ -1,16 +1,3 @@
-from distutils.core import setup
-setup(
-  name = 'ProgrammingForDS',         # How you named your package folder (MyLib)
-  packages = ['ProgrammingForDS'],   # Chose the same as "name"
-  version = '0.0',      # Start with a small number and increase it with every change you make
-  
-  description = 'Some useful functions to practice building',   # Give a short description about your library
-  author = 'Brenda',                   # Type in your name
-  author_email = 'brenda.leyva89@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/BrendaLPhys/ProgrammingForDS',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
-  keywords = ['numbers', 'sum', 'text'],   # Keywords that define your package best
-  
 from pkg_resources import parse_version
 from configparser import ConfigParser
 import setuptools
@@ -49,7 +36,7 @@ setuptools.setup(
     url = cfg['git_url'],
     packages = setuptools.find_packages(),
     include_package_data = True,
-    install_requires = ['re'],
+    install_requires = requirements,
     dependency_links = cfg.get('dep_links','').split(),
     python_requires  = '>=' + cfg['min_python'],
     long_description = open('README.md').read(),
