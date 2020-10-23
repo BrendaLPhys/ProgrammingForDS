@@ -10,10 +10,9 @@ This is a practice library containing a function that helps find numbers in a te
 
 ## How to use
 
-Here are some examples:
+Here is an example:
 
 ```python
-import re
 File = open("regex_sum_928284.txt", 'r')
 text = File.read()
 File.close()
@@ -621,14 +620,5 @@ print(text)
 number_sum(text)
 ```
 
-
-    ---------------------------------------------------------------------------
-
-    NameError                                 Traceback (most recent call last)
-
-    <ipython-input-10-78b268326214> in <module>
-    ----> 1 number_sum(text)
+    The total is: 390829
     
-
-    NameError: name 'number_sum' is not defined
-

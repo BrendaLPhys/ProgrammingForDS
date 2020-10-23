@@ -4,6 +4,7 @@ __all__ = ['number_sum']
 
 # Cell
 def number_sum(text):
+    import re
     for line in text:
         y = re.findall("[0-9]+", text)
     sums = 0
