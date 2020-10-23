@@ -615,3 +615,19 @@ print(text)
     The end
     
     
+
+```python
+number_sum(text)
+```
+
+
+    ---------------------------------------------------------------------------
+
+    NameError                                 Traceback (most recent call last)
+
+    <ipython-input-7-78b268326214> in <module>
+    ----> 1 number_sum(text)
+    
+
+    NameError: name 'number_sum' is not defined
+
