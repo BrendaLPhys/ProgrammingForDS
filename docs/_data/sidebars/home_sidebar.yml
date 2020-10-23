@@ -10,9 +10,9 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: ProgrammingForDS
+      title: Numbers in text
       url: core.html
     output: web
-    title: ProgrammingForDS
+    title: numbers_in_text
   output: web
   title: Sidebar
