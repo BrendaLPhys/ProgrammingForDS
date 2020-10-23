@@ -13,6 +13,7 @@ This is a practice library containing a function that helps find numbers in a te
 Here are some examples:
 
 ```python
+import re
 File = open("regex_sum_928284.txt", 'r')
 text = File.read()
 File.close()
@@ -617,8 +618,7 @@ print(text)
     
 
 ```python
-total = number_sum(text)
-print(total)
+number_sum(text)
 ```
 
 
@@ -626,9 +626,8 @@ print(total)
 
     NameError                                 Traceback (most recent call last)
 
-    <ipython-input-11-0c454dd24a2a> in <module>
-    ----> 1 total = number_sum(text)
-          2 print(total)
+    <ipython-input-15-78b268326214> in <module>
+    ----> 1 number_sum(text)
     
 
     NameError: name 'number_sum' is not defined
