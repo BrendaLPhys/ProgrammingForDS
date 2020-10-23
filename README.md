@@ -617,7 +617,8 @@ print(text)
     
 
 ```python
-number_sum(text)
+total = number_sum(text)
+print(total)
 ```
 
 
@@ -625,8 +626,9 @@ number_sum(text)
 
     NameError                                 Traceback (most recent call last)
 
-    <ipython-input-7-78b268326214> in <module>
-    ----> 1 number_sum(text)
+    <ipython-input-11-0c454dd24a2a> in <module>
+    ----> 1 total = number_sum(text)
+          2 print(total)
     
 
     NameError: name 'number_sum' is not defined
