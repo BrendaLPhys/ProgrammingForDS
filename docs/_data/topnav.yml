@@ -2,7 +2,7 @@ topnav:
 - title: Topnav
   items:
     - title: github
-      external_url: https://github.com/BrendaLPhys/nbdev_template/tree/master/
+      external_url: https://github.com/BrendaLPhys/numbers_in_text/tree/master/
 
 #Topnav dropdowns
 topnav_dropdowns:

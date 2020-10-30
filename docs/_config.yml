@@ -1,7 +1,7 @@
-repository: BrendaLPhys/nbdev_template
+repository: BrendaLPhys/numbers_in_text
 output: web
-topnav_title: nbdev_template
-site_title: nbdev_template
+topnav_title: numbers_in_text
+site_title: numbers_in_text
 company_name: Brenda Leyva A.
 description: This is a test run
 # Set to false to disable KaTeX math
