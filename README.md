@@ -35,3 +35,12 @@ lettermax(text)
 
     The letter used the most is:  e , it was used used:  2548  times.
     
+
+#### Function numwords counts the number of words in the text.
+
+```python
+numwords(text)
+```
+
+    Total number of words is: 28510
+    
